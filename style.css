@@ -17,7 +17,7 @@ body {
     max-width: 90%;
     margin-top: auto;
     align-self: center;
-    padding-top: 15px;
+    padding-top: 80px;
 }
 a {
     color: white;
@@ -46,4 +46,38 @@ a {
     margin-bottom: 15px;
     line-height: 30px;
     font-size: 15px;
+}
+
+
+.timer {
+    align-self: center;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 11px;
+}
+.timer__items {
+    display: flex;
+    font-size: 48px;
+}
+.timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+.timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
 }

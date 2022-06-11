@@ -14,7 +14,6 @@ body {
 }
 .logo {
     width: 250px;
-    max-width: 70%;
     margin-top: auto;
     align-self: center;
     padding-top: 15px;
@@ -32,6 +31,12 @@ a {
 .inst a {
     padding-left: 52px;
     background: url(insta.svg) left no-repeat;
+    font-size: 52px;
+    margin-right: 30px;
+}
+.wa a {
+    padding-left: 52px;
+    background: url(wa.svg) left no-repeat;
     font-size: 52px;
 }
 .copyright {

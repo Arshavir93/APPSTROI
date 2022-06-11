@@ -10,14 +10,12 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .logo {
-    width: 300px;
+    width: 290px;
     max-width: 90%;
-    margin-top: auto;
+    margin-top: 50px;
     align-self: center;
-    padding-top: 80px;
 }
 a {
     color: white;
@@ -57,7 +55,7 @@ a {
 }
 .timer__items {
     display: flex;
-    font-size: 48px;
+    font-size: 40px;
 }
 .timer__item {
     position: relative;
